@@ -1,0 +1,53 @@
+/* User List CSS */
+.user-list-container {
+    padding: 20px;
+  }
+  
+  .user-list-container h2 {
+    font-family: 'Arial, sans-serif';
+    color: #003366; /* Dark Blue color */
+  }
+  
+  .user-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-list-container button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #003366; /* Dark Blue background */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text inside button */
+  }
+  
+  .user-list-container button:hover {
+    background-color: #002244; /* Even darker blue on hover */
+  }
+  
+  /* Ensure buttons align in a straight line */
+  .user-list-container ul {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+  }
+  
+  .user-list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  

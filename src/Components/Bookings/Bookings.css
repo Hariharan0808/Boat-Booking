@@ -1,0 +1,58 @@
+.bookings-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background color */
+    font-family: 'Arial, sans-serif';
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+
+
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #14599e; /* Dark blue color */
+}
+
+.bookings-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.booking-card {
+    background-color: #ffffff;
+    border: 1px solid #4884c0; /* Dark blue border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.booking-image {
+    width: 100%;
+    height: auto; /* Adjust height according to aspect ratio */
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.booking-card h2 {
+    margin: 10px 0;
+    color: #0f4a85; /* Dark blue color */
+}
+
+.booking-card p {
+    color: #333;
+}

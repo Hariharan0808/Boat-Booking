@@ -1,0 +1,151 @@
+/* BoatDetail.css */
+
+/* Container for the boat details */
+.boat-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+.boat-detail-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff; /* White background for the main section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.boat-detail-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.boat-detail-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.boat-detail-info h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+.boat-detail-info p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+.boat-detail-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Blue color for the price */
+    margin-bottom: 20px;
+}
+
+.book-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.book-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+.date-picker-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.date-picker {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.confirm-button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.confirm-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px);
+}
+
+/* Extra images section */
+.boat-detail-extra {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.boat-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.boat-extra-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.boat-extra-details {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.boat-extra-details li {
+    margin: 5px 0;
+    color: #555;
+}
+
+.boat-extra-details li strong {
+    color: #333;
+}
+
+/* Divider line */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}

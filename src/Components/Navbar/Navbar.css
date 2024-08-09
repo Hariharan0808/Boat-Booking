@@ -1,0 +1,58 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    font-family: sans-serif;
+    box-shadow: 0px 6.98256px 16.4564px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-ul > li {
+    padding: 15px;
+    margin: 5px;
+    color: #808080;
+    transition: transform 0.7s ease-in-out;
+}
+
+.navbar-ul > li:hover {
+    transform: translateY(-5px);
+    color: #333;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #9a9a9a;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+    transform: translateY(-5px);
+    color: #000000; 
+    text-shadow: rgb(185, 185, 185) 1px 0 10px;
+}
+
+.navbar-link:active,
+.navbar-link:focus {
+    transition: transform 0.3s ease-in-out;
+    color: #000000; 
+}
+
+.boat-themed-heading {
+    color: black;
+    padding-left: 10px;
+    font-size: x-large;
+    font-family: 'Patrick Hand', cursive; /* Apply the boat-themed font */
+}

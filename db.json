@@ -1,0 +1,318 @@
+{
+  "users": [
+    {
+      "id": "eb17",
+      "email": "abi@123",
+      "password": "marudhu"
+    },
+    {
+      "id": "dc8d",
+      "email": "aa@123",
+      "password": "123"
+    },
+    {
+      "id": 1722204189595,
+      "email": "admin@123",
+      "password": "admin"
+    },
+    {
+      "id": 1722242627993,
+      "email": "hari@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "boatData": [
+    {
+      "id": 1,
+      "name": "Sea Breeze",
+      "description": "A beautiful sailboat perfect for weekend trips.",
+      "image": "/img/sea_breeze.jpg",
+      "price": 30000,
+      "location": "Miami",
+      "type": "Sailboat",
+      "capacity": 6,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio"
+      ],
+      "extraImages": [
+        "/img/sea_breeze_1.jpg",
+        "/img/sea_breeze_2.jpg",
+        "/img/sea_breeze_3.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ocean Explorer",
+      "description": "Perfect for an adventurous trip on the sea.",
+      "image": "/img/b20.jpg",
+      "price": 45000,
+      "location": "Key West",
+      "type": "Yacht",
+      "capacity": 8,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Fishing Gear"
+      ],
+      "extraImages": [
+        "/img/b21.jpg",
+        "/img/b23.jpg",
+        "/img/b28.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sunset Cruiser",
+      "description": "Ideal for a romantic sunset cruise.",
+      "image": "/img/b30.jpg",
+      "price": 38000,
+      "location": "Fort Lauderdale",
+      "type": "Motorboat",
+      "capacity": 4,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Sun Deck"
+      ],
+      "extraImages": [
+        "/img/b32.jpg",
+        "/img/b34.jpg",
+        "/img/b35.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Luxury Voyager",
+      "description": "Experience luxury on the waters.",
+      "image": "/img/b40.jpg",
+      "price": 55000,
+      "location": "Naples",
+      "type": "Catamaran",
+      "capacity": 10,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Kitchen"
+      ],
+      "extraImages": [
+        "/img/b42.jpg",
+        "/img/b45.jpg",
+        "/img/b47.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Adventure Seeker",
+      "description": "Great for family adventures on the sea.",
+      "image": "/img/b50.jpg",
+      "price": 40000,
+      "location": "Tampa",
+      "type": "Sailboat",
+      "capacity": 12,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Cabin"
+      ],
+      "extraImages": [
+        "/img/b54.jpg",
+        "/img/b56.jpg",
+        "/img/b59.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Island Hopper",
+      "description": "Hop between islands in style.",
+      "image": "/img/b60.jpg",
+      "price": 42000,
+      "location": "Sanibel",
+      "type": "Houseboat",
+      "capacity": 6,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Fishing Gear"
+      ],
+      "extraImages": [
+        "/img/b61.jpg",
+        "/img/b63.jpg",
+        "/img/b64.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Wave Rider",
+      "description": "Perfect for thrill-seekers.",
+      "image": "/img/b70.jpg",
+      "price": 47000,
+      "location": "Clearwater",
+      "type": "Jet Ski",
+      "capacity": 2,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio"
+      ],
+      "extraImages": [
+        "/img/b73.jpg",
+        "/img/b74.jpg",
+        "/img/b75.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sea Breeze",
+      "description": "Relax and enjoy the sea breeze.",
+      "image": "/img/b80.jpg",
+      "price": 37000,
+      "location": "Palm Beach",
+      "type": "Fishing Boat",
+      "capacity": 6,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Fishing Gear"
+      ],
+      "extraImages": [
+        "/img/b82.jpg",
+        "/img/b83.jpg",
+        "/img/b89.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Marine Dream",
+      "description": "Your dream getaway on the water.",
+      "image": "/img/1_bed.jpg",
+      "price": 32000,
+      "location": "Miami Beach",
+      "type": "Yacht",
+      "capacity": 14,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Jacuzzi"
+      ],
+      "extraImages": [
+        "/img/b1.jpg",
+        "/img/b3.jpg",
+        "/img/b4.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lagoon Cruiser",
+      "description": "Explore the lagoon in comfort.",
+      "image": "/img/b20.jpg",
+      "price": 35000,
+      "location": "St. Petersburg",
+      "type": "Sailboat",
+      "capacity": 4,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Sun Deck"
+      ],
+      "extraImages": [
+        "/img/bed21.jpg",
+        "/img/bed22.jpg",
+        "/img/bed24.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Coastal Voyager",
+      "description": "Voyage along the beautiful coastline.",
+      "image": "/img/bed30.jpg",
+      "price": 39000,
+      "location": "Jacksonville",
+      "type": "Motorboat",
+      "capacity": 8,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Fishing Gear"
+      ],
+      "extraImages": [
+        "/img/bed31.jpg",
+        "/img/bed33.jpg",
+        "/img/bed36.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Harbor Explorer",
+      "description": "Explore the harbor with ease.",
+      "image": "/img/bed40.jpg",
+      "price": 31000,
+      "location": "Fort Myers",
+      "type": "Catamaran",
+      "capacity": 10,
+      "features": [
+        "GPS",
+        "Life Jackets",
+        "Radio",
+        "Cabin"
+      ],
+      "extraImages": [
+        "/img/bed41.jpg",
+        "/img/bed43.jpg",
+        "/img/bed45.jpg"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "0651",
+      "boatId": 3,
+      "boatName": "Sunset Cruiser",
+      "boatImage": "/img/b30.jpg",
+      "description": "Ideal for a romantic sunset cruise.",
+      "days": "3",
+      "totalPrice": 114000,
+      "bookingDate": "2024-07-28T20:05:34.999Z"
+    },
+    {
+      "id": 1722206029918,
+      "boatId": 2,
+      "boatName": "Ocean Explorer",
+      "boatImage": "/img/b20.jpg",
+      "description": "Perfect for an adventurous trip on the sea.",
+      "days": 1,
+      "totalPrice": 45000,
+      "bookingDate": "2024-07-28T22:33:49.906Z"
+    },
+    {
+      "id": 1722227013029,
+      "boatId": 8,
+      "boatName": "Sea Breeze",
+      "boatImage": "/img/b80.jpg",
+      "description": "Relax and enjoy the sea breeze.",
+      "days": "10",
+      "totalPrice": 370000,
+      "bookingDate": "2024-07-29T04:23:32.927Z"
+    },
+    {
+      "id": 1722242691763,
+      "boatId": 9,
+      "boatName": "Marine Dream",
+      "boatImage": "/img/1_bed.jpg",
+      "description": "Your dream getaway on the water.",
+      "days": "100",
+      "totalPrice": 3200000,
+      "bookingDate": "2024-07-29T08:44:51.749Z"
+    }
+  ]
+}
