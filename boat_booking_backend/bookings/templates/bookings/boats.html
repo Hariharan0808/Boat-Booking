@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boats</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boats</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Location</th>
+                <th>Type</th>
+                <th>Capacity</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for boat in boats %}
+            <tr>
+                <td>{{ boat.id }}</td>
+                <td>{{ boat.name }}</td>
+                <td>{{ boat.description }}</td>
+                <td>{{ boat.price }}</td>
+                <td>{{ boat.location }}</td>
+                <td>{{ boat.type }}</td>
+                <td>{{ boat.capacity }}</td>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
